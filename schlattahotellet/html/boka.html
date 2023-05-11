@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Schlättahotellet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/boka.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/54673310d5.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+      <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html"></a>
+                <h1 id="#">SH</h1>
+                <h2>Schlättahotellet</h2>
+            </div>
+             <ul class="list">
+                <li><a href="./rum.html">RUM</a></li>
+                <li><a href="./spa.html">SPA</a></li>
+                <li><a href="./träning.html">TRÄNING</a></li>
+                <li><a href="./resturang.html">RESTURANG</a></li>
+                <li class="dropdown">
+                    <a href="./attGöra.html">ATT GÖRA</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Golf </a></li>
+                        <li><a href="#">Curling </a></li>
+                        <li><a href="#">Schack </a></li>
+                        <li><a href="#">Toppsboll </a></li>
+                    </ul>
+                <li>
+                    <button><a class="active" href="./boka.html">Bokning</a></button>
+                    <button>Kontakt</button>
+                </li>
+            </ul>
+
+            
+
+            
+        </nav>
+       
+        <form class="uppgifter">
+
+            <h1> BOKNINGSFORMULÄR</h1>
+            <form action="submit.php" method="post">
+              <label for="name">Namn:</label>
+              <input type="text" id="name" name="name" required>
+          
+              <label for="email">E-postadress:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="phone">Telefonnummer:</label>
+              <input type="tel" id="phone" name="phone" required>
+          
+              <label for="checkin">Incheckningsdatum:</label>
+              <input type="date" id="checkin" name="checkin" required>
+          
+              <label for="checkout">Utcheckningsdatum:</label>
+              <input type="date" id="checkout" name="checkout" required>
+          
+              <label for="roomtype">Rumstyp:</label>
+              <select id="roomtype" name="roomtype">
+                <option value="single">Enkelrum</option>
+                <option value="double">Dubbelrum</option>
+                <option value="suite">Svit</option>
+              </select>
+          
+             
+
+                
+
+
+        </form></form>
+       <footer>
+            <div class="first">
+                <p>Schlättahotellet</p>
+                <p>Copyright 2023 </p>
+            </div>
+            <div class="Mid">
+                <label for="Subscribe">Subscribe to our newsletter</label> 
+                <input type="email" name="Subscribe" id="Subscribe" placeholder="Email">
+                
+            </div>
+            <div class="last">
+                <h1>Follow us</h1>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-solid fa-suitcase"></i></a>
+
+            </div>
+       </footer> 
+    </body>
+</html>
